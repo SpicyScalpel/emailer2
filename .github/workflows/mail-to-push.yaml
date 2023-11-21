@@ -16,9 +16,6 @@ jobs:
           body: Email test from ${{github.repository}}. which is owned by ${{github.event.pusher.name}}.
           to: karina.kulakova.97@gmail.com
           from: Github Actions
-		  
- 
- 
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
