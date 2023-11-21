@@ -13,7 +13,7 @@ jobs:
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
           subject: HELLO WORLD
-          body: Email test from ${{github.repository}}. which is owned by ${{github.event.pusher.name}}.
+          body: Email test from ${{github.repository}}. which is01 owned by ${{github.event.pusher.name}}.
           to: karina.kulakova.97@gmail.com
           from: Github Actions
   Explore-GitHub-Actions:
